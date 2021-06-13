@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: large;
+}
+
+/* .bg {
+    background-image: url('/image/bg.jpg');
+    background-position: center;
+    height: 170px;
+} */
+
+img{
+    background-position: auto;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    filter: blur(2px);
+}
+header {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
